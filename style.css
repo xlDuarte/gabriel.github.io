@@ -30,14 +30,14 @@ display:block;
 
 /* Background - Fundo Preto em relação ao body */
 
-html, body{
+html, body {
     background: #181818;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #222;
 }
 
-#cv{
+#cv {
     width: 90%;
     max-width: 800px;
     background: #f3f3f3;
@@ -48,14 +48,14 @@ html, body{
  porém a forma de implementação é diferente. Enquanto o em está diretamente relacionado ao tamanho da fonte do elemento pai,
   o rem está relacionado com o tamanho da fonte do elemento root (raiz), no caso, a tag */
 
-p{
+p {
     font-size: 1em;
     line-height: 1.4em;
     margin-bottom: 20px;
     color: #222;
 }
 
-.personal-details{
+.personal-details {
     padding: 25px 35px;
     border-bottom: 2px solid #006ba6;
     background: #ededed;
@@ -63,24 +63,24 @@ p{
     justify-content: space-between;
 }
 
-#avatar{
+#avatar {
     width: 12.5%;
 }
 
-#avatar img{
+#avatar img {
     width: 100%;
     height: auto;
     border-radius: 50px;
     -webkit-border-radius: 50px;
 }
 
-#name-title{
+#name-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#name-title h1{
+#name-title h1 {
     font-size: 1.5em;
     font-weight: 700;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
@@ -88,79 +88,79 @@ p{
 
 }
 
-#name-title h2{
+#name-title h2 {
     font-size: 1.0em;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     margin-left: 2px;
 }
 
-#contact-details ul{
+#contact-details ul {
     list-style-type: none;
     font-size: 0.9em;
     margin-top: 2px;
 }
 
-#contact-details ul li{
+#contact-details ul li {
     margin-bottom: 3px;
     color: #444;
 }
 
-#contact-details ul li a{
+#contact-details ul li a {
     text-decoration: none;
     color: #444;
     transition: all .3s ease-in;
 }
 
-#contact-details ul li a:hover{
+#contact-details ul li a:hover {
     color: #006ba6;
 }
 
-section{
+section {
     border-top: 1px solid #dedede;
     padding: 20px 0 0;
     display: flex;
 }
 
-section:first-child{
+section:first-child {
     border-top: 0;
 }
 
-section:last-child{
+section:last-child {
     padding: 20px a 10px;
 }
 
-.section-title{
+.section-title {
     float: left;
     width: 25%;
     margin-left: 15px;
 }
 
-.section-content{
+.section-content {
     float: right;
     width: 70%;
 }
 
-.section-title h1{
+.section-title h1 {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;;
     font-weight: bold;
     font-size: 1.5em;
     color: #006ba6;
 }
 
-.section-title h2{
+.section-title h2 {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;;
     font-weight: bold;
     font-size: 1.5em;
     color: #006ba6;
 }
 
-.sub-details{
+.sub-details {
     font-size: 0.8em;
     font-style: italic;
     margin-bottom: 3px;
 }
 
-.key-skills{
+.key-skills {
 list-style-type: none;
 column-count: 3;
 margin-bottom: 20px;
@@ -168,7 +168,7 @@ font-size: 1em;
 color: #444;
 }
 
-.key-skills ul li{
+.key-skills ul li {
     margin-bottom: 3px;
 }
 
