@@ -1,0 +1,65 @@
+/* Importando a fonte do Google Fonts */
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Poppins:wght@300&family=Roboto:wght@300;400;500&family=Zen+Kurenaido&display=swap');
+</style>
+
+/* Reset-CSS - Restaura as configurações para o básico */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+/* Background - Fundo Preto em relação ao body */
+
+html, body{
+    background: #181818;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+
+#cv{
+    width: 90%;
+    max-width: 800px;
+    background: #f3f3f3;
+    margin-bottom: 20px;
+}
+
+/* O REM vem como sucessor do EM e ambos compartilham a mesma lógica de funcionamento (font-size),
+ porém a forma de implementação é diferente. Enquanto o em está diretamente relacionado ao tamanho da fonte do elemento pai,
+  o rem está relacionado com o tamanho da fonte do elemento root (raiz), no caso, a tag */
+
+p{
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.personal-details{
+    padding: 25px 35px;
+    border-bottom: 2px solid #006ba6;
+    background: #ededed;
+    display: flex;
+    justify-content: space-between;
+}
