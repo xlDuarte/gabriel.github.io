@@ -41,7 +41,7 @@ html, body{
     width: 90%;
     max-width: 800px;
     background: #f3f3f3;
-    margin-bottom: 20px auto;
+    margin: 20px auto;
 }
 
 /* O REM vem como sucessor do EM e ambos compartilham a mesma lógica de funcionamento (font-size),
