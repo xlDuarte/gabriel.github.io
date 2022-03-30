@@ -1,6 +1,6 @@
 /* Importando a fonte do Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 /* Reset-CSS - Restaura as configurações para o básico */
 html, body, div, span, applet, object, iframe,
@@ -81,7 +81,7 @@ p{
 
 #name-title h1{
     font-size: 1.5em;
-    font-weight: 500;
+    font-weight: 700;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     margin-bottom: -6px;
 
