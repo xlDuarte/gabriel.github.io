@@ -172,3 +172,8 @@ color: #444;
     margin-bottom: 3px;
 }
 
+.text-center{
+    align-items: center;
+    text-justify: auto;
+    justify-content: center;
+}
